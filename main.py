@@ -26,7 +26,7 @@ player_speed = 5 # Vitesse de déplacement du personnage
 
 ##### Paramètres du jeux ----------------------------------------
 
-# clock = pygame.time.Clock()  # Définir la vitesse de rafraîchissement  # <------
+clock = pygame.time.Clock()  # Définir la vitesse de rafraîchissement  # <------
 
 
 ##### Boucle principale ------------------------------------------
@@ -51,7 +51,7 @@ while running:
     if player_x > screen_width - player_width:
         player_x = screen_width - player_width
 
-    # player_x,_,_ = move_manager(keys, player_x, player_speed, player_width, screen_width)
+    player_x,_,_ = move_manager(keys, player_x, player_speed, player_width, screen_width)
     
 
     ##### Rendering ----------------------------------------------
@@ -61,7 +61,7 @@ while running:
     # Dessiner le personnage
     pygame.draw.rect(screen, (0, 128, 255), (player_x, player_y, player_width, player_height))
 
-    # clock.tick(60)      # Limiter à 60 images par seconde   # <-----
+    clock.tick(60)      # Limiter à 60 images par seconde   # <-----
     
 
     
