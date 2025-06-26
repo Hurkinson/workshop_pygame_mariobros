@@ -9,3 +9,12 @@ Initiation à GamePy en plusieurs étapes
 * Définition des paramètres de la fenètre d'affichage
 * boucle principale: events et rendering
 
+# 2. On implémente un personnage que nous pourrons déplacer.
+* paramètres du personage
+* gestion de input clavier
+* gestion des events
+
++ paramètre du jeux: rafraichissment
++ gestion des collisions avec les bords de l'écran
+
+* déportation du system de mouvement dans un module player.py
