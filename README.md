@@ -18,3 +18,5 @@ Initiation à GamePy en plusieurs étapes
 + gestion des collisions avec les bords de l'écran
 
 * déportation du system de mouvement dans un module player.py
+
+# 3. On ajoute un fond et un sprite à notre personnage
