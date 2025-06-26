@@ -20,3 +20,7 @@ Initiation à GamePy en plusieurs étapes
 * déportation du system de mouvement dans un module player.py
 
 # 3. On ajoute un fond et un sprite à notre personnage
+
+# 4 on ajoute l'animation du personnage, et un système de saut
+
+* modification de player_system.py
